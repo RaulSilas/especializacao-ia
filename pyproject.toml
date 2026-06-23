@@ -1,0 +1,18 @@
+[project]
+name = "curso-ia"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "nltk>=3.9.4",
+    "openai>=2.43.0",
+    "pydantic>=2.13.4",
+    "scikit-learn>=1.9.0",
+    "whoosh>=2.7.4",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+]
